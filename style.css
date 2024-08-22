@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-image:  linear-gradient(to top, rgba(161, 140, 209, 0.461) 0%,rgba(251, 193, 234, 0.323) 100%),url(imagenes/fondo1.jpeg);;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+.div1 {
+    border-color: #954dd76d;
+    grid-area: 1 / 2 / 3 / 5;
+    height: 20%;
+    padding: 10px;
+}
+
+.inicio {
+  font-size: 90px;
+  color: purple;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+.cumple {
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-left: 25%; 
+}
+
+
+
+.div2 {
+    grid-area: 3 / 2 / 4 / 5;
+    height: 100%;
+   
+}
+
+.imagen-siete {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.siete {
+    width: 80%;
+    display: flex;
+    border-radius: 20px;
+    
+
+}
+
+.fecha {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: indigo;
+    
+
+}
+
+.dia {
+    font-size: 80px;
+    color: purple;
+    margin-bottom: 15px;
+    text-align: center; 
+    letter-spacing: 5;
+    margin-bottom: 45px;
+}
+
+.div3 {
+    display: flex;
+    justify-content:space-between;
+    width: 80%; 
+    grid-area: 4 / 2 / 5 / 3;
+    margin-left: 85px;
+}
+
+.hora {
+    width: 65%;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+
+.textoubi {
+    text-align: center;
+
+}
+
+.ubicacion {
+margin-left: 45px;
+}
+
+.div6 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 45px;
+    justify-content: center;
+    grid-area: 5 / 2 / 6 / 5;
+}
+
+
+
+.divertido {
+    font-size: 70px;
+    color: blueviolet;
+    text-align: center;
+    justify-items: center;
+    margin-top: 45px;
+}
+
+.amigo {
+    display: flex;
+    justify-content: center;
+}
+
+.amigos {
+    width: 40%;
+    margin: 20px, 0px;
+}
+
+.final {
+    font-size: 70px;
+    color: rgba(220, 20, 60, 0.866);
+    text-align: center;
+    justify-content: center;
+    margin: 20px, 0px;
+
+}
+
+.olvido {
+    font-size: 50px;
+    color: rgba(220, 20, 60, 0.866);
+    text-align: center;
+    justify-content: center;
+    margin: 20px, 0px;
+}
+
